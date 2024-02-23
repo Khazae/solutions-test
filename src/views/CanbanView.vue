@@ -21,7 +21,7 @@
                     :country="element.country"
                     @card-clicked="visibleUserInfo(element.email)"
                     v-for="element in list1"
-                    :key="element.name"
+                    :key="element.email"
                   />
                 </draggable>
               </ul>
@@ -45,7 +45,7 @@
                 :country="element.country"
                 @card-clicked="visibleUserInfo(element.email)"
                 v-for="element in list2"
-                :key="element.name"
+                :key="element.email"
               />
             </draggable>
           </ul>
@@ -68,7 +68,7 @@
                 :country="element.country"
                 @card-clicked="visibleUserInfo(element.email)"
                 v-for="element in list3"
-                :key="element.name"
+                :key="element.email"
               />
             </draggable>
           </ul>
