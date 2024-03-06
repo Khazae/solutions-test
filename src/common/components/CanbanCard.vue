@@ -53,5 +53,10 @@ export default {
 <style scoped>
 .card_item {
   cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.card_item:hover {
+  opacity: 50%;
 }
 </style>

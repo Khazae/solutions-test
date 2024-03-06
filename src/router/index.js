@@ -9,6 +9,11 @@ const routes = [
     name: "canbanView",
     component: () => import("@/views/CanbanView.vue"),
   },
+  {
+    path: "/user-about/:id",
+    name: "userAboutView",
+    component: () => import("@/views/UserAboutView.vue"),
+  },
 ];
 
 const router = new VueRouter({
